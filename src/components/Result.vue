@@ -7,7 +7,7 @@
       <p>You are normal.</p>
   </div>
   <div v-else>
-      <p>Your are Too Slow ! try again</p>
+      <p class="slow">Your are fu*king Too Slow ! try again</p>
   </div>
 </template>
 
@@ -18,5 +18,7 @@ export default {
 </script>
 
 <style>
-
+.slow {
+    color:red;  
+}
 </style>
